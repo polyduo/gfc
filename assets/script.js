@@ -192,7 +192,7 @@ function createFreebie(theGrid, link, time){
         var time_posted = ""
         if(time){
             var time_posted = moment(time).fromNow();   
-            time_posted = "" + time_posted;
+            time_posted = "Posted " + time_posted;
         }else{
             time_posted = "Date not set."
         }

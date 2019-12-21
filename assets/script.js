@@ -204,7 +204,7 @@ function createFreebie(theGrid, link, time){
                     </div>
                     <div class="freebie__meta">
                         <h3 class="pw-item__title">COLLECT FREE CHIPS</h3>
-                        <span class="pw-item__unique-id">ID: `+window.pldIndex+`</span>
+                        <span class="pw-item__unique-id">ID: `+(window.pldNumOfEntries-window.pldIndex)+`</span>
                         <span class="pw-item__posted-time">`+time_posted+`</span>
                     </div>
                 </a>
